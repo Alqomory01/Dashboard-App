@@ -24,9 +24,9 @@ export const Mysidebar = () => {
   const handleCloseOverlay = () => setIsOverlayOpen(false)
 
   return (
-    <div className="xs:w-1/2 pr-10 md:w-1/6 bg-gray-800 text-white flex flex-col">
+    <div className="  md:w-1/6 bg-gray-800 text-white flex flex-col">
       <h1 className="p-4 text-lg font-bold"><MdMenu /></h1>
-      <nav className="flex-grow">
+      <nav className="flex-grow"> 
           <ul className="flex flex-col space-y-2 p-4 list-none">
             <li className="font-bold hover:bg-gray-700 pb-2 rounded">
               <a href="#" className="block">Home</a>

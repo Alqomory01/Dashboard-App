@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     
-    <div className=" max-w-screen overflow-x-hidden grid grid-rows-2 lg:grid-row-2 gap-3 relative">
+    <div className=" max-w-screen overflow-x-hidden xs:grid grid-rows-2 lg:grid-row-2 gap-3 relative">
       {/* Main Content */}
       
       <div className="">

@@ -3,14 +3,14 @@ import Image from 'next/image'
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
-import { MdOutlineViewTimeline } from "react-icons/md";
+import { MdOutlineViewTimeline } from "react-icons/md";                                                                                                                      
 
 export const Insightspanel = () => {
   return (
-    <div className="sm:w-[300px] sm:p-4 m-2 z-0   md:w-[1200px] p-6 bg-white  text-black border border-blue-900 rounded-lg shadow-lg shadow-black">
+    <div className="w-[250px]  sm:w-[300px] sm:p-4 m-2 z-0   md:w-[1200px] p-6 bg-white  text-black border border-blue-900 rounded-lg shadow-lg shadow-black">
       <h2 className="text-lg font-bold mb-2">Insights</h2>
       <div className='flex items-center font-bold'>
-      <Image src='/copilot.png' alt='copilot.png' width={30} height={30}/><p className="">Hi Mona, you’ve achieved <span className='text-blue-900'>68%</span> of your goal for this quarter!</p>
+      <Image src='/copilot.png' alt='copilot.png' width={30} height={30}/><p className="text-[8px]  sm:text-sm md:text-lg">Hi Mona, you’ve achieved <span className='text-blue-900'>68%</span> of your goal for this quarter!</p>
       <div className="w-[650px] h-3 bg-white flex overflow-hidden ml-3 rounded-full">
         <div className=' w-[150px] h-3  bg-green-700'></div>
         <div className=' w-[80px] h-3 bg-blue-700'></div>
@@ -21,8 +21,8 @@ export const Insightspanel = () => {
       <div><span><RiArrowDropDownLine  className='size-7'/></span></div>
 
        </div>
-       <p className='m-3'>Copilot has pinpointed 20key leads that shows strong purchase intent and are actively engaging. These leads need your focus</p>
-       <div className='grid gap-x-2 grid-cols-3 '>
+       <p className='text-xs m-3 md-text-lg'>Copilot has pinpointed 20key leads that shows strong purchase intent and are actively engaging. These leads need your focus</p>
+       <div className=' xs:flex flex-col space-y-3 text-xs md:grid gap-x-2 grid-cols-3 '>
       <div className='border border-md shadow-md px-2 rounded-md'>
         <div className='flex items-center space-y-2'>
           <div><Image src='/jane.jpeg' alt='jane' width={30} height={30} style={{borderRadius:'50%'}}/></div><div><p className='font-bold'>Jane Reyes</p><p>COO NorthWind Traders</p></div>

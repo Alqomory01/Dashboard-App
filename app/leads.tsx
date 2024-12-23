@@ -21,7 +21,7 @@ interface LeadsProps {
 export const Leads: React.FC<LeadsProps>  = ({ isOpen, onClose }) => {
     if(!isOpen) return null;
   return (
-    <div className=' bg-white text-black z-10 w-[960px] mx-auto p-3 border border-blue-800 rounded-lg absolute top-7 right-36'><div className='flex items-center justify-between'>
+    <div className='w-[250px] sm:w-[300px] bg-white text-black z-10 md:w-[960px] mx-auto p-3 border border-blue-800 rounded-lg absolute top-7 right-36'><div className='flex items-center justify-between'>
         <div className='flex items-center space-x-3'><FaCameraRetro /><p>Engage with Jane Reyes</p></div><button onClick={onClose}><IoClose /></button> 
         </div>
         <div className='flex items-center space-y-2 mt-3 border shadow-sm  rounded-md shadow-black'>
