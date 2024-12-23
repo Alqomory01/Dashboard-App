@@ -59,7 +59,7 @@ export const Insightspanel = () => {
         <div className='flex items-center space-y-2 '>
           <div><Image src='/Fabrikam.gif' alt='Fabrikam' width={30} height={30} style={{borderRadius:'50%'}}/></div><div><p className='font-bold'>Partnership Opportunity for Fabrikam</p><p>Fabrikam $5,000 000 5 days to close</p></div>
           </div>
-          <div className='flex items-center space-x-2 border text-black bg-slate-200 rounded-md p-2 mb-2'> <span><MdOutlineAttachEmail /></span> <p>Prepair me for Fabrikam's key stakeholder meeting</p></div>
+          <div className='flex items-center space-x-2 border text-black bg-slate-200 rounded-md p-2 mb-2'><span><MdOutlineAttachEmail /></span> <p>Prepair me for Fabrikam&apos;s key stakeholder meeting</p></div>
         </div>
         
         <p className='text-blue-950'>Show all key activities</p>
