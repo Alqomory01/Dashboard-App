@@ -1,5 +1,5 @@
 import { Insightspanel } from "./insightspanel";
-import { Leads } from "./leads";
+// import { Leads } from "./leads";
 import Maincontent from "./maincontent";
 
 

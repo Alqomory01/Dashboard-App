@@ -49,7 +49,7 @@ export const Leads = ({ isOpen, onClose }) => {
             <div className='flex items-center justify-between'><p>About Jane </p><span><RiArrowDropDownLine /></span></div>
             <p>Jane Reyes the chief operetaing officer of Northwind Traders is a dynamic leader with a proven track record in optimizing operations and enhancing, customer experience under her guidance Northwind traders in Northwind `Northwind traders in-store coffee shop have flourished becominjg a hallmark of quality and innovation jane's commitment to excellence makes her an ideal partner for first coffee she is always seeking top-tier equipment to elevate her cofee shops` offering consistent high quality service </p></div>
         </div>
-        <div className='flex items-center justify-between'><div className='flex items-center space-x-3'><p className=' border-r-4 pr-3'>Showing one of all</p> <p className='text-blue-900'>Show all</p></div> <div className='flex items-center space-x-1 justify-center mt-2'>
+        <div className='flex items-center justify-between'><div className='flex items-center space-x-3'><p className='border-r-4 pr-3'>Showing one of all</p> <p className='text-blue-900'>Show all</p></div> <div className='flex items-center space-x-1 justify-center mt-2'>
         <div className='bg-blue-900 w-[20px] h-[4px] rounded-full'></div>
         <div className='bg-blue-900 w-[5px] h-[4px] rounded-full'></div>
         <div className='bg-blue-900 w-[5px] h-[4px] rounded-full'></div>
