@@ -36,7 +36,7 @@ export default function Maincontent() {
           
         </div>
         <hr/>
-        {/* {filteredLeads.map((lead, index) => (
+        {filteredLeads.map((lead, index) => (
         <div key={index}>
           <div className="grid grid-cols-4 gap-x-4 sm:gap-y-2 pt-2 pb-2">
             <div className="flex items-center">
@@ -56,7 +56,7 @@ export default function Maincontent() {
           </div>
           <hr />
         </div>
-      ))} */}
+      ))}
     
         <div className='grid grid-cols-4 sm:gap-y-2 gap-x-4  pt-2 pb-2'>
           <div className='flex items-center'><input type='checkbox'/><p className='pl-1 sm:pl-1 text-blue-800  md:pl-2'>Wilford Asher</p></div>
