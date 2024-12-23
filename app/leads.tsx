@@ -13,7 +13,12 @@ import { FaRegThumbsUp } from "react-icons/fa";
 import { FaThumbsDown } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
-export const Leads = ({ isOpen, onClose }) => {
+interface LeadsProps {
+    isOpen: boolean;
+    onClose: () => void;
+  }
+
+export const Leads: React.FC<LeadsProps>  = ({ isOpen, onClose }) => {
     if(!isOpen) return null;
   return (
     <div className=' bg-white text-black z-10 w-[960px] mx-auto p-3 border border-blue-800 rounded-lg absolute top-7 right-36'><div className='flex items-center justify-between'>
