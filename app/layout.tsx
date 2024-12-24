@@ -5,7 +5,7 @@ import './globals.css';
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="sm:flex min-h-screen bg-white">
+      <body className="sm:flex min-h-screen bg-white max-w-screen overflow-x-hidden">
         {/* Sidebar */}
         
         <Mysidebar/>
