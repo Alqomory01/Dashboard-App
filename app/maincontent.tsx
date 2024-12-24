@@ -23,7 +23,7 @@ export default function Maincontent() {
 );
 
     return (
-        <div className=" w-[250px] sm:w-[300px] sm:p-2 text-xs md:max-md p-6 md:text-lg bg-white rounded-lg shadow-md">
+        <div className=" w-[250px] sm:w-[300px] sm:p-2 text-xs md:w-[1200px] p-6 md:text-lg bg-white rounded-lg shadow-md">
           <div className='flex items-center justify-start'>
           <input type='text' value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder='search by name' className=' sm:w-[200px] border border-blue-800 rounded-md md:w-[350px] h-8 pl-2' /> <Image src='/copilot.png' alt='copilot.png' width={30} height={30} className='transform -translate-x-8'/></div>
 
