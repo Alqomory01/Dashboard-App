@@ -7,7 +7,7 @@ import { MdOutlineViewTimeline } from "react-icons/md";
 
 export const Insightspanel = () => {
   return (
-    <div className="w-[250px]  sm:w-[300px] sm:p-4 m-2 z-0   md:w-[1200px] p-6 bg-white  text-black border border-blue-900 rounded-lg shadow-lg shadow-black">
+    <div className="w-[250px]  sm:w-[300px] sm:p-4 m-2 z-0   md:w-[1024px] p-6 ml-5 bg-white  text-black border border-blue-900 rounded-lg shadow-lg shadow-black">
       <h2 className="text-lg font-bold mb-2">Insights</h2>
       <div className='flex items-center font-bold'>
       <Image src='/copilot.png' alt='copilot.png' width={30} height={30}/><p className="text-[8px]  sm:text-sm md:text-lg">Hi Mona, you’ve achieved <span className='text-blue-900'>68%</span> of your goal for this quarter!</p>
